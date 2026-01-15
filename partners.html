@@ -76,19 +76,134 @@
         .container h1 {    
             margin-left: 50px;
         }
+                     .footer {
+            background-color: #242a45;
+            color: #ffffff;
+            padding: 60px 80px 30px;
+            font-family: Arial, sans-serif;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .footer-col {
+            min-width: 220px;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .tagline {
+            margin: 10px 0 20px;
+            color: #cfd3ff;
+        }
+
+        .footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer li {
+            margin: 8px 0;
+            color: #cfd3ff;
+            cursor: pointer;
+        }
+
+        .footer li:hover {
+            color: #ffffff;
+        }
+
+        .contact li {
+            margin-bottom: 10px;
+        }
+
+        .apps {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .apps li {
+            border: 1px solid #ffffff;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+        }
+
+        .footer h4 {
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+
+        .spaced {
+            margin-top: 30px;
+        }
+
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .footer-bottom p {
+            color: #cfd3ff;
+        }
+
+        .bottom-links,
+        .social {
+            display: flex;
+            gap: 20px;
+        }
+
+        .social li {
+            border: 1px solid #ffffff;
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .footer {
+    background-color: #23294a;
+    color: white;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    width: 90%;
+    margin: auto;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-box {
+    width: 22%;
+}
 
     </style>
 </head>
 <body>
     <nav class="nav">
-        <img src="./assets/Bykea.png" alt="">
+        <img src="./assets/image1.png" alt="">
         <ul>
-            <li><a class="nav-link" href="">About</a> </li>
-            <li><a class="nav-link" href="">Our Services</a> </li>
-            <li><a class="nav-link" href="">Partners</a> </li>
-            <li><a class="nav-link" href="">Franchises</a> </li>
-            <li><a class="nav-link" href="">Help Centers</a> </li>
-            <li><a class="nav-link" href="">Careers</a></li>
+            <li><a class="nav-link" href="./index.html">Home</a> </li>
+            <li><a class="nav-link" href="./about.html">About</a> </li>
+            <li><a class="nav-link" href="./services.html">Our Services</a> </li>
+            <li><a class="nav-link" href="./partners.html">Partners</a> </li>
+            <li><a class="nav-link" href="./franchises.html">Franchises</a> </li>
+            <li><a class="nav-link" href="./helpcenter.html">Help Centers</a> </li>
             <button type="button" class="btn btn-success">Contact Bykea</button>
 
         </ul>
@@ -98,7 +213,7 @@
             <h1><b>Become a Bykea Partner</b></h1>
             <p>Take charge of your future success by becoming a Bykea <br>Partner.</p>
         </div>
-        <div><img src="./assets/partner banner.png" alt=""></div>
+        <div><img src="./assets/p1.png" alt=""></div>
     </div>
     <br><br>
     <div>
@@ -114,8 +229,52 @@
             <p>With Bykea, I don’t need to get a formal job as it <br> helps me earn Rs 5,000 weekly in just bonuses. As a <br> partner, I am free to work whenever I want and for <br> however long I want.</p>
         </div>
         <div>
-            <img src="./assets/partner banner2.png" alt="">
+            <img src="./assets/p2.png" alt="" width="700px">
         </div>
     </div>
+    <br><br>
+    <div>
+        <h1 style="margin-left: 50px;"><b>Becoming a Partner is Easy</b></h1>
+        <br><br>
+        <img src="./assets/partner banner 2.png" alt="">
+    </div>
+     <br><br>
+    <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-row">
+
+
+
+            <div class="footer-box">
+                <h3>About</h3>
+                <p>Company</p>
+                <p>Team</p>
+                <p>Mission & Values</p>
+                <p>Careers</p>
+            </div>
+
+            <div class="footer-box">
+                <h3>Products</h3>
+                <p>Ride</p>
+                <p>Delivery</p>
+                <p>Shops</p>
+                <p>Bykea for Business</p>
+            </div>
+
+            <div class="footer-box">
+                <h3>Bykea Partner</h3>
+                <p>About Partner</p>
+                <p>Help Center</p>
+                <p>FAQs</p>
+                <p>Contact Us</p>
+            </div>
+
+        </div>
+
+       
+    </div>
+</footer>
+
+
 </body>
 </html>

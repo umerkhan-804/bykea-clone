@@ -49,7 +49,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: green;
+            background-color: rgb(15, 185, 15);
 
         }
 
@@ -181,19 +181,40 @@
             align-items: center;
             justify-content: center;
         }
+        .footer {
+    background-color: #23294a;
+    color: white;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    width: 90%;
+    margin: auto;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-box {
+    width: 22%;
+}
 
 </style>
 </head>
 <body>
      <nav class="nav">
-        <img src="./assets/Bykea.png" alt="">
+        <img src="./assets/image1.png" alt="">
         <ul>
-            <li><a class="nav-link" href="">About</a> </li>
-            <li><a class="nav-link" href="">Our Services</a> </li>
-            <li><a class="nav-link" href="">Partners</a> </li>
-            <li><a class="nav-link" href="">Franchises</a> </li>
-            <li><a class="nav-link" href="">Help Centers</a> </li>
-            <li><a class="nav-link" href="">Careers</a></li>
+            <li><a class="nav-link" href="./index.html">Home</a> </li>
+            <li><a class="nav-link" href="./about.html">About</a> </li>
+            <li><a class="nav-link" href="./services.html">Our Services</a> </li>
+            <li><a class="nav-link" href="./partners.html">Partners</a> </li>
+            <li><a class="nav-link" href="./franchises.html">Franchises</a> </li>
+            <li><a class="nav-link" href="./helpcenter.html">Help Centers</a> </li>
             <button type="button" class="btn btn-success">Contact Bykea</button>
 
         </ul>
@@ -204,14 +225,14 @@
         <p>An online panel helping small to medium businesses deliver parcels to multiple customers super fast.</p>
         </div>
         <div>
-            <img src="./assets/services banner.png" alt="">
+            <img src="./assets/s1.png" alt="">
         </div>
     </div>
     <br><br>
     <div class="banner">
         <div><h1><b>Deliver multiple shipments<br>on demand.</b></h1>
         <p>Merchants can now dispatch multiple shipments for cash on<br>delivery and volumes of documents through the Bykea Business<br>Panel. Unlike the app, the panel makes it possible for businesses<br>to purchase top-up credits for express deliveries and track<br>shipments individually.</p></div>
-        <div><img src="./assets/services banner2.png" alt=""></div>
+        <div><img src="./assets/s2.png" alt=""></div>
     </div>
     <br><br>
     <div>
@@ -249,95 +270,46 @@
     </div>
     <br><br><br>
     <div>
-        <center><h1><b>Interested in learning more?</b></h1>
+        <center><h1><b>Ready to get BYKEA Carpool Service? Let's get in touch</b></h1>
         <p><b>Email us at <span style="color: green;">info@bykea.com</span> for more details.</b></p></center>
     </div>
     <br><br>
     <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-row">
 
-        <div class="footer-content">
 
-            
-            <div class="footer-col">
-                <h2 class="logo">BYKEA</h2>
-                <p class="tagline">Moving Pakistan Forward</p>
 
-                <ul class="contact">
-                    <li>📞 021 38654444</li>
-                    <li>✉ info@bykea.com</li>
-                </ul>
-
-                <ul class="apps">
-                    <li>App Store</li>
-                    <li>Google Play</li>
-                    <li>AppGallery</li>
-                </ul>
+            <div class="footer-box">
+                <h3>About</h3>
+                <p>Company</p>
+                <p>Team</p>
+                <p>Mission & Values</p>
+                <p>Careers</p>
             </div>
 
-            <!-- About -->
-            <div class="footer-col">
-                <h4>About</h4>
-                <ul>
-                    <li>Company</li>
-                    <li>Team</li>
-                    <li>Mission, Vision & Values</li>
-                    <li>Social Impact</li>
-                    <li>Press & Media</li>
-                    <li>Careers</li>
-                    <li>Franchise</li>
-                    <li>Security</li>
-                </ul>
+            <div class="footer-box">
+                <h3>Products</h3>
+                <p>Ride</p>
+                <p>Delivery</p>
+                <p>Shops</p>
+                <p>Bykea for Business</p>
             </div>
 
-            <!-- Products -->
-            <div class="footer-col">
-                <h4>Products</h4>
-                <ul>
-                    <li>Ride</li>
-                    <li>Insurance</li>
-                    <li>Shops</li>
-                    <li>Delivery</li>
-                    <li>Bykea For Business</li>
-                </ul>
-            </div>
-
-            <!-- Partner & Help -->
-            <div class="footer-col">
-                <h4>Bykea Partner</h4>
-                <ul>
-                    <li>About Partner</li>
-                </ul>
-
-                <h4 class="spaced">Help Center</h4>
-                <ul>
-                    <li>FAQs</li>
-                    <li>Contact Us</li>
-                </ul>
+            <div class="footer-box">
+                <h3>Bykea Partner</h3>
+                <p>About Partner</p>
+                <p>Help Center</p>
+                <p>FAQs</p>
+                <p>Contact Us</p>
             </div>
 
         </div>
 
-       <hr>
+       
+    </div>
+</footer>
 
-        <div class="footer-bottom">
-            <p>All Rights Reserved Bykea Pakistan</p>
-
-            <ul class="bottom-links">
-                <li>Privacy Policy</li>
-                <li>Accessibility</li>
-                <li>Safety</li>
-                <li>Terms</li>
-            </ul>
-
-            <ul class="social">
-                <li>FB</li>
-                <li>TW</li>
-                <li>IG</li>
-                <li>IN</li>
-            </ul>
-        </div>
-
-    </footer>
 
 </body>
 </html>
